@@ -6,10 +6,10 @@ int main()
      cout<<"初始数组为：";
      for(int i = 0;i<10;i++)
      cout<<arr[i]<<" ";
-     cout<<"\n";
+     cout<<endl;
      
      //冒泡算法，升序
-     //外循环次数，元素个数减一
+     //外循环次数，元素总个数减一
      for(int i=0;i<9;i++)
      {
      	//内循环次数为元素总个数-轮数-1
@@ -30,6 +30,6 @@ int main()
 	 cout<<"新数组为：";
      for(int i = 0;i<10;i++)
      cout<<arr[i]<<" ";
-     cout<<"\n";
+     cout<<endl;
      return 0;
 }
