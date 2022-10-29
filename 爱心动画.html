@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤</title>
+    <style>
+        body {
+            background-color: #000;
+        }
+        #main {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .heart {
+            border-radius: 10px;
+            margin-right: 5px;
+            width:10px; 
+            height:20px;
+            background-color: aqua;
+            animation: action 2s infinite alternate;
+    }
+    @keyframes action{
+        from{
+            scale: 0;
+        }
+        to{
+            scale: 1;
+        }
+    }
+    #main .heart:nth-child(2){
+        height:40px;
+        background-color: rgb(239, 6, 6);
+    }
+    #main .heart:nth-child(3){
+        height:60px;
+        background-color: rgb(58, 132, 236);
+    }
+    #main .heart:nth-child(4){
+        transform: translateY(15px);
+        height:70px;
+        background-color: rgb(34, 12, 158);
+    }
+    #main .heart:nth-child(5){
+        transform: translateY(25px);
+        height:80px;
+        background-color: rgb(25, 230, 69);
+    }
+    #main .heart:nth-child(6){
+        transform: translateY(15px);
+        height:70px;
+        background-color: rgb(234, 45, 139);
+    }
+    #main .heart:nth-child(7){
+        height:60px;
+        background-color: rgb(76, 12, 128);
+    }
+    #main .heart:nth-child(8){
+        height:40px;
+        background-color: rgb(3, 171, 149);
+    }
+    #main .heart:nth-child(9){
+        height:20px;
+        background-color: rgb(235, 109, 12);
+    }
+    .cpdd {
+        transform: translateY(25px);
+        text-align: center;
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>    
+    </div>
+    <div class="cpdd"><a href="https://github.com/chi3316" target="_blank" class="cpdd">cpdd</a></div>
+</body>
+</html>
