@@ -1,3 +1,4 @@
+//输入两个整数a,b(数据保证a是小于b),输出a/b转换为2到9进制的10位小数结果；
 #include<iostream>
 #include<cmath>
 using namespace std;
