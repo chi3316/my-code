@@ -8,7 +8,7 @@ void niu(int n,char a,char b,char c)
 	{
 	niu(n-1,a,c,b);//把n-1块圆盘从a借助c移到b
 	cout<<a<<"->"<<c<<endl;//然后把a移到c
-	niu(n-1,b,a,c);//在把n-1块圆盘从b借助a移到b
+	niu(n-1,b,a,c);//再把n-1块圆盘从b借助a移到b
 	}
 }
 int main()
